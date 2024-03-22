@@ -5,11 +5,11 @@ def change():
     print(expense)
     print('Dinero recibido')
     print(money)
-
+    print('')
     print('Vuelto')
-
+    print('')
     print('Pesos:')
     print(int(money-expense))
     print('Centavos:')
-    print(((money-expense)%1)*100)
+    print(int(((money-expense)%1)*100))
     
